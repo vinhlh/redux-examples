@@ -1,0 +1,14 @@
+{
+    "1": {
+        "name": "GoPro Hero 4 Black",
+        "price": 499
+    },
+    "2": {
+        "name": "GoPro Hero 4 Silver",
+        "price": 399
+    },
+    "3": {
+        "name": "GoPro 4 Session",
+        "price": 199
+    }
+}
