@@ -8,7 +8,6 @@ let Breadcrumbs = ({ routes }) => (
         {
             routes.map((item, index) => {
                 let isActive = index >= routes.length - 1
-                console.log(item)
                 return (
                     <LinkContainer active={isActive} disabled={isActive} key={index} to={item.path || ''}>
                         <BreadcrumbItem>{item.component.title}</BreadcrumbItem>
